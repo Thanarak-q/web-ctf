@@ -1,0 +1,4 @@
+interface:
+  display_name: "Web CTF"
+  short_description: "Orchestrate evidence-led web CTF solving"
+  default_prompt: "Use $web-ctf to investigate this authorized web CTF challenge and verify the flag."
