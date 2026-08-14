@@ -22,17 +22,15 @@ Use only with challenge URLs, source bundles, containers, APIs, browser clients,
 
 ## Install with the Skills CLI
 
-After publishing this repository, replace `<OWNER>` with its GitHub owner:
-
 ```bash
-npx --yes skills add <OWNER>/web-ctf --global \
+npx --yes skills add Thanarak-q/web-ctf --global \
   --agent codex --agent claude-code --yes
 ```
 
 Preview before installation:
 
 ```bash
-npx --yes skills add <OWNER>/web-ctf --list
+npx --yes skills add Thanarak-q/web-ctf --list
 ```
 
 To install into the current project instead of globally, omit `--global`.
@@ -42,7 +40,7 @@ To install into the current project instead of globally, omit `--global`.
 Clone the repository:
 
 ```bash
-git clone https://github.com/<OWNER>/web-ctf.git
+git clone https://github.com/Thanarak-q/web-ctf.git
 cd web-ctf
 ```
 
